@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <vlc/vlc.h>
 #include <Windows.h>
-int main(int argc, char* argv[])
+int main3(int argc, char* argv[])
 {
 	libvlc_instance_t * inst;
 	libvlc_media_player_t *mp;
@@ -16,7 +16,8 @@ int main(int argc, char* argv[])
 	inst = libvlc_new(1, myargs);
 
 	/* Create a new item */
-	char *input = "rtsp://root:e9K4Hf0EBp1t@147.87.113.151/axis-media/media.amp?videocodec=h264&resolution=1280x800";
+	//char *input = "rtsp://root:e9K4Hf0EBp1t@147.87.113.151/axis-media/media.amp?videocodec=h264&resolution=1280x800";
+	char *input = "rtsp://root:e9K4Hf0EBp1t@147.87.113.151/axis-media/media.amp?videocodec=h264&resolution=1280x800&duration=2&clock=1";
 	m = libvlc_media_new_location(inst, input);
 
 	/* Create a media player playing environement */
@@ -28,7 +29,7 @@ int main(int argc, char* argv[])
 	/* play the media_player */
 	libvlc_media_player_play(mp);
 
-	Sleep(10000000); /* Let it play a bit */
+	Sleep(5000); /* Let it play a bit */
 
 	libvlc_media_player_stop(mp); /* Stop playing */
 

@@ -1,0 +1,33 @@
+﻿-- logger module started --
+filesystem error: cannot open file C:\code\src\github.com\MLauper\libVLC-Test\libVLC-Test\test.wav (No such file or directory)
+core error: Einlesen der Datei fehlgeschlagen
+core error: VLC konnte die Datei „C:\code\src\github.com\MLauper\libVLC-Test\libVLC-Test\test.wav“ nicht öffnen (No such file or directory).
+core error: open of `file:///C:/code/src/github.com/MLauper/libVLC-Test/libVLC-Test/test.wav' failed
+core error: Ihre Eingabe konnte nicht geöffnet werden
+core error: VLC kann die Medienadresse 'file:///C:/code/src/github.com/MLauper/libVLC-Test/libVLC-Test/test.wav' nicht öffnen. Für Details bitte im Fehlerprotokoll nachsehen.
+﻿-- logger module started --
+core error: ES_OUT_RESET_PCR called
+avcodec warning: threaded frame decoding is not compatible with DXVA2, disabled
+avcodec warning: plane 0 not aligned
+avcodec warning: disabling direct rendering
+avcodec warning: cannot decode one frame (211660 bytes)
+﻿-- logger module started --
+avcodec warning: threaded frame decoding is not compatible with DXVA2, disabled
+avcodec warning: plane 0 not aligned
+avcodec warning: disabling direct rendering
+﻿-- logger module started --
+core error: ES_OUT_RESET_PCR called
+avcodec warning: threaded frame decoding is not compatible with DXVA2, disabled
+avcodec warning: plane 0 not aligned
+avcodec warning: disabling direct rendering
+avcodec warning: cannot decode one frame (196247 bytes)
+﻿-- logger module started --
+core error: ES_OUT_RESET_PCR called
+avcodec warning: threaded frame decoding is not compatible with DXVA2, disabled
+x264: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+
+x264: profile High, level 3.2
+
+avcodec warning: plane 0 not aligned
+avcodec warning: disabling direct rendering
+avcodec warning: cannot decode one frame (234019 bytes)

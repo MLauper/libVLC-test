@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  libVLCtest_extractFrames.cpp
+c:\code\src\github.com\mlauper\libvlc-test\libvlc-test\libvlctest_extractframes.cpp(2): fatal error C1083: Cannot open include file: 'vlc/vlc.h': No such file or directory
+  libVLCTest2.cpp
+c:\code\src\github.com\mlauper\libvlc-test\libvlc-test\libvlctest2.cpp(3): fatal error C1083: Cannot open include file: 'vlc/vlc.h': No such file or directory
+  libVLCTest.cpp
+c:\code\src\github.com\mlauper\libvlc-test\libvlc-test\libvlctest.cpp(4): fatal error C1083: Cannot open include file: 'vlc/vlc.h': No such file or directory
+  Generating Code...
